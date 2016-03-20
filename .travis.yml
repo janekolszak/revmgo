@@ -10,8 +10,8 @@ install:
   - export PATH=$PATH:$HOME/gopath/bin
   - go get -v github.com/revel/revel
   - go get -v github.com/revel/cmd/revel
-  - go get -v gopkg.in/mgo.v2o
-  - go get -v gopkg.in/mgo.v2o/bson
+  - go get -v gopkg.in/mgo.v2
+  - go get -v gopkg.in/mgo.v2/bson
 
 script:
   - go test github.com/revel/revel

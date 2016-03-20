@@ -1,8 +1,8 @@
 package models
 
 import (
-	"gopkg.in/mgo.v2o"
-	"gopkg.in/mgo.v2o/bson"
+	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 )
 
 type Book struct {
