@@ -1,8 +1,8 @@
 package models
 
 import (
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
+	"gopkg.in/mgo.v2o"
+	"gopkg.in/mgo.v2o/bson"
 )
 
 type Book struct {

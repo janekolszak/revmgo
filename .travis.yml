@@ -3,14 +3,15 @@ go:
   - 1.3
   - 1.4
   - 1.5
+  - 1.6
 services:
   - mongodb
 install:
   - export PATH=$PATH:$HOME/gopath/bin
   - go get -v github.com/revel/revel
   - go get -v github.com/revel/cmd/revel
-  - go get -v labix.org/v2/mgo
-  - go get -v labix.org/v2/mgo/bson
+  - go get -v gopkg.in/mgo.v2o
+  - go get -v gopkg.in/mgo.v2o/bson
 
 script:
   - go test github.com/revel/revel

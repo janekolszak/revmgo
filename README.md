@@ -14,8 +14,8 @@ This is a **mantained** fork of https://github.com/jgraham909/revmgo.
 ```
 ### Configuration
 In app.conf:
-- **revmgo.dial** = [mgo.Session.Dial()](http://godoc.org/labix.org/v2/mgo#Dial)
-- **revmgo.method** = One of 'clone', 'copy', 'new'. See [mgo.Session.New()](http://godoc.org/labix.org/v2/mgo#Session.New)
+- **revmgo.dial** = [mgo.Session.Dial()](http://godoc.org/gopkg.in/mgo.v2o#Dial)
+- **revmgo.method** = One of 'clone', 'copy', 'new'. See [mgo.Session.New()](http://godoc.org/gopkg.in/mgo.v2o#Session.New)
 
 ### Initialization
 - In app.init() in `app/init.go` add:
@@ -78,7 +78,7 @@ Use revmgo in revel.jobs
 ```
 ### See Also
 
-*  http://labix.org/v2/mgo for documentation on the mgo driver
+*  http://gopkg.in/mgo.v2o for documentation on the mgo driver
 *  https://github.com/jgraham909/bloggo for a reference implementation (Still a work in progress)
 
 
